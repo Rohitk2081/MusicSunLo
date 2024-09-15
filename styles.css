@@ -1,0 +1,26 @@
+/* General Styles */
+body, html {
+    height: 100%;
+  }
+  
+  .messages-container {
+    height: 400px;
+    overflow-y: auto;
+    border-radius: 5px;
+  }
+  
+  .message {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+  }
+  
+  .message.sent {
+    background-color: #d1ffd1;
+    text-align: right;
+  }
+  
+  .message.received {
+    background-color: #e6e6e6;
+    text-align: left;
+  }
